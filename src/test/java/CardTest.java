@@ -43,7 +43,7 @@ public class CardTest {
     }
     @Test
     void shouldRequestNoPhone(){
-        $("[data-test-id=name] input").setValue("Grigoryev Igor");
+        $("[data-test-id=name] input").setValue("Григорьев Игорь");
         $("[data-test-id=phone] input").setValue("");
         $("[data-test-id=agreement]").click();
         $("button").click();
